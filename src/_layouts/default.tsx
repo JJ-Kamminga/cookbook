@@ -1,4 +1,3 @@
-import { Navigation } from '@components/navigation';
 import { LayoutProps } from 'types/types';
 import global from '../styles/global.js';
 import fonts from '../styles/fonts.js';
@@ -79,10 +78,6 @@ function DefaultLayout({title, description, children, postProps}: LayoutProps): 
 			</Header>
 			<main>
 				{children}
-				<h1>Recepten</h1>
-				<p>
-					Gewoon een verzameling van mijn favoriete recepten.
-				</p>
 			</main>
 			<Footer>{description}</Footer>
 		</>

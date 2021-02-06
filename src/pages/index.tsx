@@ -25,7 +25,7 @@ export default function Home({posts, title, description}: BlogProps) : React.Rea
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<DefaultLayout title={title} description={description}>
-				<p>List of recipes</p>
+				<p>Recepten</p>
 				<ul>
 					{posts.map(function(post, idx) {
 						return (

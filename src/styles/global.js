@@ -42,9 +42,9 @@ export default css.global`
         margin-right: auto;
         padding: 0px 0px 100px 0px;
         width: calc(30vw + 200px);
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 10px;
+        margin-top: 25px;
+        margin-bottom: 75px;
+        padding: 25px;
         border: 2px solid var(--black);
         border-radius: 4px;
         background-color: #ffe0b5;

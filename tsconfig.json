@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "sourceMap": true,
+    "outDir": "./.next/",
+    "moduleResolution": "node",
+    "strict": true,
+    "lib": [
+      "dom",
+      "esnext",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "plugins": [
+      { "name": "typescript-plugin-css-modules" }
+    ],
+    //added by next
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true, // requirement for babel
+    "resolveJsonModule": true, // to match webpack resolution
+    "isolatedModules": true, // requirement for babel
+    "jsx": "preserve", //next.js implements its own optimized jsx transform
+    // for relative import aliases (blog)
+    "baseUrl": "./src",
+    "paths": {
+      "@layouts/*": ["_layouts/*"],
+      "@posts/*": ["_posts/*"],
+      "@components/*": ["components/*"],
+      "@lib": ["lib/index"],
+      "@api": ["api/index"],
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules"
+  ]
+}

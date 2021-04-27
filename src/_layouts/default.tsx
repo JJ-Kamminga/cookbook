@@ -16,25 +16,25 @@ function DefaultLayout({title, description, children, postProps}: LayoutProps): 
 
 				.pallet {
 					height: 50px;
-					with: 50px
+					with: 50px;
 				}
 				.pallet-1 {
-					background-color: var(--blue)
+					background-color: var(--blue);
 				}
 				.pallet-2 {
-					background-color: var(--gold)
+					background-color: var(--gold);
 				}
 				.pallet-3 {
-					background-color: var(--yellow)
+					background-color: var(--yellow);
 				}
 				.pallet-4 {
-					background-color: var(--brown)
+					background-color: var(--brown);
 				}
 				.pallet-5 {
-					background-color: var(--copper)
+					background-color: var(--copper);
 				}
 				.pallet-6 {
-					background-color: var(--red)
+					background-color: var(--red);
 				}
 
 

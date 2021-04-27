@@ -32,11 +32,9 @@ export default css.global`
         word-wrap: break-word;
         overflow-x: hidden;
     }
-
     * {
         box-sizing: border-box;
     } 
-
     main {
         margin-left: auto;
         margin-right: auto;
@@ -49,7 +47,6 @@ export default css.global`
         border-radius: 4px;
         background-color: #ffe0b5;
     }
-
     a {
         color: inherit;
         text-decoration: none;

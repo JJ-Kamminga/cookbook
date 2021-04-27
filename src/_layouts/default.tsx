@@ -12,6 +12,38 @@ function DefaultLayout({title, description, children, postProps}: LayoutProps): 
 			<style jsx global>
 				{`
 				${global}
+				 html {
+					scroll-behavior: smooth;
+				  }
+				  body {
+					  background-color: var(--red);
+					  min-height: 100vh;
+					  margin: 0;
+					  padding: 0;
+					  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+					  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+					  word-wrap: break-word;
+					  overflow-x: hidden;
+				  }
+				  * {
+					  box-sizing: border-box;
+				  } 
+				  main {
+					  margin-left: auto;
+					  margin-right: auto;
+					  padding: 0px 0px 100px 0px;
+					  width: calc(30vw + 200px);
+					  margin-top: 25px;
+					  margin-bottom: 75px;
+					  padding: 25px;
+					  border: 2px solid var(--black);
+					  border-radius: 4px;
+					  background-color: #ffe0b5;
+				  }
+				  a {
+					  color: inherit;
+					  text-decoration: none;
+				  }
 				${fonts}
 
 				.pallet {
